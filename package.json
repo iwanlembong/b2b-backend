@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node.js B2B Rest API with Express, Sequelize, and MySQL",
+  "main": "server.js",
+  "scripts": {
+     "start": "nodemon --max-old-space-size=8192 server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Sequelize",
+    "MySQL",
+    "REST",
+    "API"
+  ],
+  "author": "Iwan Lembong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1",
+    "sequelize": "^6.37.3"
+  }
+}
